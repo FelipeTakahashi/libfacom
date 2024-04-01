@@ -63,8 +63,15 @@ void * hash_busca(thash h, const char * key){
 }
 
 int hash_remove(thash * h, const char * key){
-    return EXIT_FAILURE;
-
+    int pos;
+    for(pos = 0; pos < h->max; pos++) {
+        if(h->table[pos] != 0) {
+            if(h->table[pos] != h->deleted) {
+                free((void*)h->table[pos]);
+            }
+        }
+    }
+    free(h->table);
 }
 
 void hash_apaga(thash *h){
