@@ -9,15 +9,15 @@
 <details>
     <summary> <h3> Convenient </h3> </summary>
     <blockquote> Convenient .c or .cpp files if you want to execute the code; non-educational purposes.</blockquote>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom">Priority Queue</a></p>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom">Hash Table</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/convenient/heap.cpp">Priority Queue</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/convenient/hash.c">Hash Table</a></p>
 </details>
 
 <details>
     <summary> <h3> Priority Queue </h3> </summary>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom">Include</a></a>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom">Code</a></p>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom">Tests</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/libfacom/include/heap.h">Include</a></a>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/libfacom/src/heap.cpp">Code</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/libfacom/test/test_heap.cpp">Tests</a></p>
 </details>
 
 <details>
