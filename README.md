@@ -22,7 +22,7 @@
 
 <details>
     <summary> <h3> Hash Table </h3> </summary>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/include/libfacom.h">Include</a></p>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/src/hash.c">Code</a></p>
-    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/test/test_hash.c">Tests</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/libfacom/include/hash.h">Include</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/libfacom/src/hash.c">Code</a></p>
+    <p><a href="https://github.com/FelipeTakahashi/libfacom/blob/main/libfacom/test/test_hash.c">Tests</a></p>
 </details>
