@@ -39,8 +39,6 @@ int hash_insere(thash * h, void * bucket){
 
 }
 
-
-
 int hash_constroi(thash * h,int nbuckets, char * (*get_key)(void *) ){
     h->table = calloc(nbuckets+1, sizeof(void*));
     if(h->table == NULL) {
@@ -55,7 +53,6 @@ int hash_constroi(thash * h,int nbuckets, char * (*get_key)(void *) ){
     return EXIT_SUCCESS;
 
 }
-
 
 void * hash_busca(thash h, const char * key){
     return NULL;
