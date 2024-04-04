@@ -11,7 +11,7 @@ typedef struct{
     char  cpf[11];
 }taluno;
 
-char * get_key(void * reg){
+char * get_key(void * reg){ 
     return (*((taluno *)reg)).nome;
 }
 
@@ -22,8 +22,6 @@ void * aloca_aluno(char * nome, char * cpf){
     strcpy(aluno->cpf,cpf);
     return aluno;
 }
-
-
 
 void test_insere(){
     thash h;
